@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:3.10-slim
 
 WORKDIR /app
 
@@ -13,3 +13,4 @@ RUN mkdir -p tests
 EXPOSE 8000
 
 CMD ["python", "mail_service_API.py"]
+
